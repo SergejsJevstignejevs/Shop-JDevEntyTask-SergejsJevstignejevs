@@ -1,7 +1,5 @@
 # Shop-JDevEntyTask-SergejsJevstignejevs
 Scandiweb Junior Developer test assignment/Entry React developer TEST
-# Shop-JDevEntyTask-SergejsJevstignejevs
-Scandiweb Junior Developer test assignment/Entry React developer TEST
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 shop-v2
