@@ -1,0 +1,122 @@
+.ProductCard {
+    display: flex;
+    flex-direction: column;
+    /* margin: 100px 20px 0 20px; */
+    width: 386px;
+    height: auto;
+}
+
+.ProductCard:nth-child(n) {
+    margin-top: 100px;
+}
+
+.ProductCard:nth-child(3n + 1) {
+    margin-right: 20px;
+}
+
+.ProductCard:nth-child(3n + 2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ProductCard:nth-child(3n) {
+    margin-left: 20px;
+}
+
+.ProductCard:hover {
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+
+.ProductCard.productOutOfStock {
+    opacity: .5;
+} 
+
+.ProductCard.productOutOfStock:hover{ 
+    cursor: default;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Product images start */
+
+.ProductCard__img-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 354px;
+    height: 330px;
+}
+
+.ProductCard__img {
+    margin-top: 16px;
+    object-fit: contain;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ProductCard__addProductToCart-img {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 304px;
+    left: 287px;
+    right: 26px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.ProductCard__productOutOfStock-text {
+    position: absolute;
+    text-transform: uppercase;
+    color: #8D8F9A;
+    mix-blend-mode: difference;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.ProductCard.productOutOfStock .ProductCard__productOutOfStock-text{
+    opacity: 1;
+}
+
+.ProductCard.productOutOfStock:hover .ProductCard__addProductToCart-img {
+    cursor: default;
+    opacity: 0;
+}
+
+.ProductCard:hover .ProductCard__addProductToCart-img{
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* Product images end */
+
+/* Product content start */
+
+.ProductCard__product-content {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 16px 16px 16px;
+}
+
+.ProductCard__product-name {
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.ProductCard__product-cost {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+/* Product images end */

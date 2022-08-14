@@ -1,0 +1,16 @@
+.App {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 1440px;
+  font-family: "Raleway";
+}
+
+.App__content.shadow {
+  width: inherit;
+  min-height: 100vh;
+  background-color: rgba(57, 55, 72, 0.22);
+}
+
+.App__content.shadow * {
+  z-index: -1;
+}

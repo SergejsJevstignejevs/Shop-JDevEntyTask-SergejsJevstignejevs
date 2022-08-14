@@ -1,0 +1,10 @@
+.AppTitle {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-top: 80px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 160%;
+    text-transform: uppercase;
+}

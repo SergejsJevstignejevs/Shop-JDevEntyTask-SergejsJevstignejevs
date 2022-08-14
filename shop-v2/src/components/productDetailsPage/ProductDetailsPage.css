@@ -1,0 +1,134 @@
+.ProductDetailsPage {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 178px;
+}
+
+.ProductDetailsPage__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1150px;
+    margin: 0 auto;
+    height: 595px;
+    overflow: hidden;
+}
+
+/* ProductDetailsPage additional-pictures start */ 
+
+.ProductDetailsPage__additional-pictures-container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-auto-rows: 100px;
+}
+
+.productDetailsPage__additional-pictures {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.productDetailsPage__additional-pictures:hover {
+    box-shadow: 0px 0px 12px #599bff;
+    cursor: pointer;
+}
+
+/* ProductDetailsPage additional-pictures end */ 
+
+/* ProductDetailsPage picture start */ 
+
+.ProductDetailsPage__picture-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductDetailsPage__picture {
+    width: 610px;
+    height: 511px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* ProductDetailsPage picture end */ 
+
+/* ProductDetailsPage content start*/
+
+.ProductDetailsPage__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 350px;
+    height: 595px;
+}
+
+.ProductDetailsPage__brand {
+    width: 250px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.ProductDetailsPage__name {
+    width: 250px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.ProductDetailsPage__cost span {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.ProductDetailsPage__cost {
+    margin-top: 36px;
+    width: 52px;
+    height: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    margin-bottom: 40px;
+}
+
+.ProductDetailsPage__content button {
+    width: 292px;
+    height: 52px;
+    margin-top: 20px;
+    border: 1px solid #1D1F22;
+    background-color: #fff; 
+}
+
+.ProductDetailsPage__content button:hover {
+    background-color: #5ECE7B;
+    color: #FFFFFF;
+    border: none;
+}
+
+.ProductDetailsPage__content button:disabled {
+    background-color: #8D9093;
+    color: #FFFFFF;
+    border: none;
+}
+
+.ProductDetailsPage__description {
+    margin-top: 40px;
+    width: 292px;
+    height: 103px;
+    overflow-y: auto;
+}
+
+/* ProductDetailsPage content end*/

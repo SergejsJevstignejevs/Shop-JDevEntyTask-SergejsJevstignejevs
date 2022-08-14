@@ -1,0 +1,70 @@
+.CartPage__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.CartPage__content {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 279px;
+    height: 159px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.CartPage__content span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1D1F22;
+}
+
+.CartPage__content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    width: 279px;
+    height: 49px;
+    border: 1px solid #1D1F22;
+    background-color: #fff;   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%; 
+}
+
+.CartPage__content button:hover {
+    background-color: #5ECE7B;
+    color: #FFFFFF;
+    border: none;
+}
+
+.CartPage__tax span{
+    margin-left: 10px;
+}
+
+.CartPage__total {
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.CartPage__total span{
+    margin-left: 38px;
+}
+
+.CartPage:last-child {
+    padding-bottom: 254px;
+}

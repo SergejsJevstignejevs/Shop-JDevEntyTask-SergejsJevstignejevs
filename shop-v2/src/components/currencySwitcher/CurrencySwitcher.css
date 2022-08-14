@@ -1,0 +1,38 @@
+.CurrencySwitcher {
+    position: fixed;
+    width: 130px;
+    margin-top: 80px;
+    top: 0%;
+    left: 50%;
+    transform: translateX(420.25%);
+    z-index: 99;
+}
+
+.CurrencySwitcher__wrapper {
+    height: 200px;
+    width: 130px;
+}
+
+.CurrencySwitcher__list{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+
+.CurrencySwitcher__list-item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    cursor: pointer;
+    padding: 10px 40px 10px 20px;
+}
+
+.CurrencySwitcher__list-item:hover {
+    background: #EEEEEE;
+}

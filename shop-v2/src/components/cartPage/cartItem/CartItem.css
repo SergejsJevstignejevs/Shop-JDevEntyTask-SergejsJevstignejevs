@@ -1,0 +1,27 @@
+.CartItem {
+    margin-top: 32px;
+    width: auto;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.CartItemLarge {
+    margin: 0px auto;
+    padding: 24px 0px;
+    width: calc(1440px * 0.9);
+    height: 288px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.CartItemLarge:first-child {
+    margin-top: 80px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.CartItemLarge:nth-child(n) {
+    border-bottom: 1px solid #E5E5E5;
+}

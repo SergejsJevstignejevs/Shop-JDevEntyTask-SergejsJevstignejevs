@@ -1,0 +1,93 @@
+.MiniCart {
+    position: fixed;
+    margin-top: 80px;
+    top: 0%;
+    left: 50%;
+    transform: translateX(85%);
+    width: 380px;
+    height: 89vh;
+    background-color: #FFFFFF;
+    z-index: 99;
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+    overflow: auto;
+}
+
+.MiniCart__wrapper {
+    margin: 32px 16px;
+}
+
+/* MiniCart title start */
+
+.MiniCart__title-text {
+    text-align: left;
+    color: #1D1F22;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.MiniCart__title-text-span {
+    color: #1D1F22;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/* MiniCart title end */
+
+/* MiniCart total start */
+
+.MiniCart__total-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.MiniCart__total-text-fHalf{
+    text-align: right;
+    margin: 38px 0 0 0;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.MiniCart__total-text-sHalf {
+    text-align: left;
+    margin: 32px 0 0 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/* MiniCart total end */
+
+/* MiniCart buttons start */
+
+.MiniCart__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.MiniCart__buttons button {
+    text-transform: uppercase;
+    width: 140px;
+    height: 43px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #1D1F22;
+    background: #FFFFFF;
+    border: 1px solid #1D1F22;
+    margin-top: 32px;
+}
+
+.MiniCart__buttons button:hover {
+    background: #5ECE7B;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* MiniCart buttons end */
